@@ -17,6 +17,9 @@ class Solution:
                 arr = [0]
                 cur = 0
                 for tmp in _sum:
+                    '''
+                    为何用二分呢?
+                    '''
                     cur += tmp
                     loc = bisect.bisect_left(arr, cur - k)
                     if loc < len(arr):
