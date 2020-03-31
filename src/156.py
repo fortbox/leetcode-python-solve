@@ -14,6 +14,8 @@ class Solution:
         """
         题目没看明白。
         左节点-》根节点，根节点-》右节点，右节点-》左节点
+        top down
+        https://segmentfault.com/a/1190000016755610
         :param root:
         :return:
         """
